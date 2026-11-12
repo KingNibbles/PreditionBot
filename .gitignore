@@ -1,0 +1,23 @@
+.env
+config.json
+state.json
+secrets/
+logs/
+*.log
+__pycache__/
+*.pyc
+.venv/
+build/
+dist/
+*.spec
+templates/*.png
+templates/*.jpg
+samples/
+state_dryrun.json
+!templates/defaults/*.png
+*.tmp
+# signing certificates and keys must never be committed
+*.pfx
+*.p12
+*.pem
+*.key
